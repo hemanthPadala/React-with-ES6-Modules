@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { fetchLocations } from '../actions';
+import { fetchLocations } from '../store/actions';
 import _ from 'lodash';
 import SearchResults from './search_results';
 import PropTypes from 'prop-types';

@@ -1,6 +1,6 @@
 
-import airports from '../../data/airports.json';
-import airlines from '../../data/airlines.json';
+import airports from '../../../data/airports.json';
+import airlines from '../../../data/airlines.json';
 
 export const FETCH_LOCATIONS = 'fetch_locations';
 
